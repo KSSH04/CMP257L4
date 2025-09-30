@@ -1,1 +1,104 @@
-  background-color: rgb(118, 118, 196);
+/* Background for the entire page */
+body {
+  background-color: rgb(29, 29, 71);
+  font-family: Papyrus, Arial, sans-serif;
+  margin: 8px;
+}
+
+/* Header background */
+header {
+  background-color: black; 
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+h1 {
+  font-size: 2rem;  
+}
+
+h2 {
+  font-size: 1.5rem; 
+}
+
+label {
+  font-size: 1rem;   
+}
+
+
+/* Form background */
+form {
+  background-color: #e9c46a;      
+  padding: 1.5rem;
+  margin: 2rem auto;
+  width: 70%;
+  border-radius: 6px;
+  border: 2px solid #264653;      
+}
+
+/* Footer background */
+footer {
+  background-color: #2a9d8f; 
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+/* Borders and Spacing */
+input, textarea, select, button {
+  display: block;
+  width: 95%;
+  padding: 0.5rem;         
+  margin-top: 0.5rem;      
+  border: 1px solid #264653;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button {
+  font-weight: 700;
+  cursor: pointer;
+  transition: transform 0.1s, filter 0.15s;
+  color: #0b132b;
+  background-color: #2a9d8f; /* default (submit-like) */
+}
+
+span{
+
+  text-decoration: underline yellow;
+}
+
+span:hover{
+
+  background-color: #FF441d;
+}
+
+.accent {
+  color: #5bc0be;
+  background: rgba(91,192,190,0.12);
+  padding: 0 0.15rem;
+  border-radius: 4px;
+  transition: background 120ms ease, color 120ms ease, box-shadow 120ms ease;
+}
+
+.navbar {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #e9c46a;
+}
+
+.navbar .nav-link,
+.navbar .navbar-brand {
+  letter-spacing: 0.25px;
+}
+
+.navbar .nav-link:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 991.98px) {
+  /* Slightly larger touch targets on mobile */
+  .navbar .nav-link {
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+  }
+}
