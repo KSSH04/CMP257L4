@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>PRACTICE</title>
+</head>
+
+<body>
+
+<script>
+  // 2f. Guess the number
+  let favoriteNumber = 7;  
+  let guess = prompt("Guess my favorite number:");  
+  let message = "";
+
+  if (parseInt(guess) === favoriteNumber) {
+    message = "✅ Correct! You guessed my favorite number 🎉";
+  } else {
+    message = "❌ Oops! That’s not my favorite number 😅";
+  }
+
+
+  document.write(message);
+</script>
+
+</body>
+</html>
